@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uber Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="nav-left">
+                <a href="#" class="logo">Uber</a>
+                <a href="#" class="logo2">Ride</a>
+                <a href="#" class="logo2">Drive</a>
+                <a href="#" class="logo2">Business</a>
+                <div class="dropdown">
+                    <a href="#" class="logo2 dropdown-toggle">About</a>
+                    <div class="dropdown-menu">
+                        <a href="#">About Us</a>
+                        <a href="#">Our Offerings</a>
+                        <a href="#">How Uber Works</a>
+                        <a href="#">Sustainability</a>
+                        <a href="#">Explore</a>
+                        <a href="#">Newsroom</a>
+                        <a href="#">Investor Relations</a>
+                        <a href="#">Autonomous</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Careers</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a href="#" class="logo2"><span class="globe-icon">🌐</span> EN</a>
+                <a href="#" class="logo2">Help</a>
+                <a href="#" class="logo2">Log in</a>
+                <a href="#" class="signup-btn">Sign up</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="spacer"></div>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="left-part">
+            <h1 class="main-heading">Go anywhere with Uber</h1>
+            <div class="input-part">
+                <!-- Pickup Input -->
+                <div class="input-row">
+                    <span class="dot-icon">●</span>
+                    <input type="text" class="form-field" placeholder="Pickup location" />
+                    <span class="icon-btn">📍</span>
+                </div>
+
+                <!-- Dropoff Input -->
+                <div class="input-row">
+                    <span class="dot-icon">■</span>
+                    <input type="text" class="form-field" placeholder="Dropoff location" />
+                </div>
+
+                <!-- Date & Time -->
+                <div class="date-time-row">
+                    <div class="input-box-stretch">
+                        <p class="date-time-label">Date</p>
+                        <div class="input-box">📅 Today</div>
+                    </div>
+                    <div class="input-box-stretch">
+                        <p class="date-time-label">Time</p>
+                        <div class="input-box">🕒 Now ⌄</div>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="button-row">
+                    <button class="see-prices">See prices</button>
+                    <a href="#" class="recent-link">Log in to see your recent activity</a>
+                </div>
+            </div>
+        </div>
+        <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_896,w_1344/v1712926828/assets/a3/cf8564-e2a6-418c-b9b0-65dd285c100b/original/3-2-ridesharing-new.jpg" class="img-1" />
+    </div>
+    <!-- Suggestions Section -->
+    <div class="suggestions-section">
+        <h2 class="suggestions-heading">Suggestions</h2>
+        <div class="suggestions-grid">
+            <!-- Card 1 -->
+            <div class="suggestion-card">
+                <div>
+                    <h5>Ride</h5>
+                    <p>Go anywhere with Uber. Request a ride, hop in, and go.</p>
+                    <button class="details-btn">Details</button>
+                </div>
+                <img src="https://mobile-content.uber.com/launch-experience/ride.png" alt="Ride">
+            </div>
+
+            <!-- Card 2 -->
+            <div class="suggestion-card">
+                <div>
+                    <h5>Reserve</h5>
+                    <p>Reserve your ride in advance so you can relax on the day of your trip.</p>
+                    <button class="details-btn">Details</button>
+                </div>
+                <img src="https://mobile-content.uber.com/uber_reserve/reserve_clock.png" alt="Reserve">
+            </div>
+
+            <!-- Card 3 -->
+            <div class="suggestion-card">
+                <div>
+                    <h5>Intercity</h5>
+                    <p>Get convenient, affordable outstation cabs anytime at your door.</p>
+                    <button class="details-btn">Details</button>
+                </div>
+                <img src="https://mobile-content.uber.com/launch-experience/intercity.png" alt="Intercity">
+            </div>
+
+            <!-- Card 4 -->
+            <div class="suggestion-card">
+                <div>
+                    <h5>Shuttle</h5>
+                    <p>Lower-cost shared rides on professionally driven buses and vans.</p>
+                    <button class="details-btn">Details</button>
+                </div>
+                <img src="https://mobile-content.uber.com/launch-experience/hcv_shuttle.png" alt="Shuttle">
+            </div>
+
+            <!-- Card 5 -->
+            <div class="suggestion-card">
+                <div>
+                    <h5>Courier</h5>
+                    <p>Uber makes same-day item delivery easier than ever.</p>
+                    <button class="details-btn">Details</button>
+                </div>
+                <img src="https://cn-geo1.uber.com/static/mobile-content/Courier.png" alt="Courier">
+            </div>
+
+            <!-- Card 6 -->
+            <div class="suggestion-card">
+                <div>
+                    <h5>Rentals</h5>
+                    <p>Request a trip for a block of time and make multiple stops.</p>
+                    <button class="details-btn">Details</button>
+                </div>
+                <img src="https://mobile-content.uber.com/launch-experience/Hourly2021.png" alt="Rentals">
+            </div>
+        </div>
+    </div>
+    <!-- Log in to see your recent activity -->
+    <section class="recent-activity-section">
+        <div class="activity-left">
+            <h2 class="activity-heading">Log in to see your recent activity</h2>
+            <p class="activity-desc">
+                View past trips, tailored suggestions, support resources, and more.
+            </p>
+            <button class="activity-login-btn">Log in to your account</button>
+            <p class="signup-text">
+                Don’t have an Uber account? <a href="#" class="signup-link">Sign up</a>
+            </p>
+        </div>
+        <div class="activity-right">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_768,w_1152/v1730197725/assets/0f/48c7ba-da13-4fdc-b54c-42878042f513/original/Airport-Fall.png" alt="Airport Drop Illustration" class="activity-img" />
+        </div>
+    </section>
+    <!-- Uber Reserve Section -->
+    <!-- Uber Reserve Section -->
+    <h2 class="res-heading">Plan for later</h2>
+    <section class="reserve-section">
+        <div class="reserve-left">
+            <h2 class="reserve-heading">Get your ride right <br> with Uber Reserve</h2>
+            <p class="reserve-subheading">Choose date and time</p>
+
+            <div class="date-time-row-2">
+                <div class="input-box-stretch-2">
+                    <p class="date-time-label">Date</p>
+                    <div class="input-box">
+                        📅 <span style="margin-left: 10px;">Date</span>
+                    </div>
+                </div>
+                <div class="input-box-stretch-2">
+                    <p class="date-time-label">Time</p>
+                    <div class="input-box">
+                        🕒 <span style="margin-left: 10px;">Time</span> ⌄
+                    </div>
+                </div>
+            </div>
+
+            <button class="next-btn">Next</button>
+        </div>
+        <div class="reserve-right">
+            <h4 class="benefits-heading">Benefits</h4>
+            <ul class="benefits-list">
+                <li><span class="benefit-icon">🗓️</span> Choose your exact pickup time up to 90 days in advance.</li>
+                <li><span class="benefit-icon">⏱️</span> Extra wait time included to meet your ride.</li>
+                <li><span class="benefit-icon">📥</span> Cancel at no charge up to 60 minutes in advance.</li>
+            </ul>
+            <a href="#" class="terms-link">See terms</a>
+        </div>
+    </section>
+    <section class="section-new">
+        <div class="activity-right">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_1152,w_1152/v1684855112/assets/96/4dd3d1-94e7-481e-b28c-08d59353b9e0/original/earner-illustra.png" class="img-new" />
+        </div>
+        <div class="activity-left-2">
+            <h2 class="activity-heading">Drive when you want, make what you need</h2>
+            <p class="activity-desc">
+                Make money on your schedule with deliveries or rides—or both. You can use your own car or choose a rental through Uber.
+            </p>
+            <div class="line-new">
+                <button class="activity-login-btn">Get started</button>
+                <a href="#" class="recent-link">
+                    Already have an account? Sign in</a>
+            </div>
+        </div>
+    </section>
+    <section class="recent-activity-section-2">
+        <div class="activity-left">
+            <h2 class="activity-heading">The Uber you know,<br /> reimagined for business</h2>
+            <p class="activity-desc">
+                Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.
+            </p>
+            <button class="activity-login-btn">Get started</button>
+            <a href="#" class="recent-link">Check out our solutions</a>
+        </div>
+        <div class="activity-right">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_1152,w_1152/v1684887108/assets/76/baf1ea-385a-408c-846b-59211086196c/original/u4b-square.png" class="activity-img" />
+        </div>
+    </section>
+    <section class="recent-activity-section-2">
+        <div class="activity-left">
+            <h2 class="activity-heading">Make money by renting out your car</h2>
+            <p class="activity-desc">
+                Connect with thousands of drivers and earn more per week with Uber’s free fleet management tools
+            </p>
+            <button class="activity-login-btn">Get started</button>
+        </div>
+        <div class="activity-right">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_1152,w_1152/v1696243819/assets/18/34e6fd-33e3-4c95-ad7a-f484a8c812d7/original/fleet-management.jpg" class="activity-img" />
+        </div>
+    </section>
+    <section class="app-download">
+        <h2 class="download-title">It’s easier in the apps</h2>
+
+        <div class="app-card-container">
+            <!-- Uber Rider App -->
+            <div class="app-card">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_768,w_1152/v1733787941/assets/35/7ee158-f735-400e-a8dd-185a32a856c2/original/QR-Download-Uber-App-3-2-%281%29-%283%29-%281%29.png" alt="Uber app QR code" class="qr" />
+                <div class="app-text">
+                    <h3>Download the Uber app</h3>
+                    <p>Scan to download</p>
+                </div>
+                <span class="arrow">→</span>
+            </div>
+
+            <!-- Uber Driver App -->
+            <div class="app-card">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_2304,w_2304/v1690813624/assets/50/e85531-2f7e-4ee7-92d4-e39a6801ee2b/original/QR_https___t.uber.com_download-driver-app.png" alt="Driver app QR code" class="qr" />
+                <div class="app-text">
+                    <h3>Download the Driver app</h3>
+                    <p>Scan to download</p>
+                </div>
+                <span class="arrow">→</span>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">Uber</div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="#">About us</a>
+                    <a href="#">Our offerings</a>
+                    <a href="#">Newsroom</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">AI</a>
+                    <a href="#">Gift cards</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <a href="#">Ride</a>
+                    <a href="#">Drive</a>
+                    <a href="#">Deliver</a>
+                    <a href="#">Eat</a>
+                    <a href="#">Uber for Business</a>
+                    <a href="#">Uber Freight</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Global citizenship</h4>
+                    <a href="#">Safety</a>
+                    <a href="#">Diversity & Inclusion</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Travel</h4>
+                    <a href="#">Reserve</a>
+                    <a href="#">Airports</a>
+                    <a href="#">Cities</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-left">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="store-links">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" />
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" />
+                </div>
+            </div>
+
+            <div class="footer-language-location">
+                <div><i class="fas fa-globe"></i> English</div>
+                <div><i class="fas fa-map-marker-alt"></i> Hyderabad</div>
+            </div>
+        </div>
+
+
+        <div class="footer-legal">
+            <p>© 2025 Uber Technologies Inc.</p>
+            <div class="footer-policy-links">
+                <a href="#">Privacy</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
